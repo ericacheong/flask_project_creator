@@ -5,15 +5,17 @@ This script creates flask project template with the following folder layout as r
 ## Folder structure
 ```
 /yourapplication
-   /yourapplication
-      __init__.py
-      /static
-         style.css
-      /templates
-         layout.html
-         index.html
-         login.html
-         ...
+    runserver.py
+    /yourapplication
+        __init__.py
+        views.py
+        /static
+            style.css
+        /templates
+            layout.html
+            index.html
+            login.html
+            ...
 ```
 ## Language
 - [Python][1]
