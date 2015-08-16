@@ -2,7 +2,7 @@
 
 This script creates flask project template with the following folder layout as recommended in https://exploreflask.com/organizing.html
 
-The template generated result can be found in [flask_sample_project][https://github.com/ericacheong/flask_sample_project]
+The template generated result can be found in [flask_sample_project](https://github.com/ericacheong/flask_sample_project)
 
 ## Generated file structure
 ```
