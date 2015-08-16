@@ -88,29 +88,6 @@ if len(argv) > 1:
                 fi = open(f, "wb")
                 fi.close()
 
-            # write runserver.py
-            # fi = open("runserver.py", "wb")
-            # content = "from %s import app\n\napp.debug = True\napp.run(host='0.0.0.0', port=5000)" % app_name
-            # fi.write(content)
-            # fi.close()
-
-            # os.makedirs(app_name)
-            # os.chdir(app_name)
-
-            # # write __init__.py
-            # fi = open("__init__.py", "wb")
-            # content = "from flask import Flask\n\napp = Flask(__name__)\nimport %s.views" % app_name
-            # fi.write(content)
-            # fi.close()
-
-            # # write views.py
-            # fi = open("views.py", "wb")
-            # content = "from %s import app\n\n@app.route('/')\ndef index():\n\treturn 'Hello World!'" % app_name
-            # fi.write(content)
-            # fi.close()
-
-            # os.makedirs("static")
-            # os.makedirs("templates")
             
         except:
             raise
