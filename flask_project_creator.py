@@ -14,7 +14,7 @@ if len(argv) > 1:
     else:
         # top folder and files
         first_dir_list = ['config','instance',app_name]
-        gitignore_content = "instance\\\n*.pyc"
+        gitignore_content = "instance/\n*.pyc"
         runserver_content = "from %s import app\n\napp.run(host='0.0.0.0', port=5000)" % app_name
         start_content = "#!/bin/bash\n\nexport APP_CONFIG_FILE=%s/%s/config/development.py\n\npython runserver.py" % (os.getcwd(),app_name)
         first_file_list = ['.gitignore','runserver.py','start.sh']
